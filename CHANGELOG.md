@@ -1,3 +1,9 @@
+## 0.5.2
+* Android: AGP 9-ready Gradle (`compileSdk`/`minSdk`, Java 17, namespace).
+* Android: bump `compileSdk` to 36; keep JitPack for UsbSerial.
+* Android: drop obsolete `package` from the manifest (namespace in Gradle).
+* Updates the minimum supported SDK version to Flutter 3.44 / Dart 3.12.
+
 ## 0.5.1
 * Improve Java handling of null pointers.
 * Update gradle version on sample.
